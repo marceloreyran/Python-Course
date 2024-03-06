@@ -68,6 +68,20 @@ módulos.
 - Uno de los problemas que tenía una persona que se inicializaba en Python era saber
 qué versión tenía que instalar, ya que hasta finales de diciembre de 2019 existían dos versiones activas.
 
-
-
-
+- Como explicamos al principio, la primera versión de Python se publicó en 1991. Desde
+entonces se han publicado varias versiones que han seguido siendo más o menos
+retrocompatibles. Es decir, podía usar esas versiones en programas que había creado
+en versiones anteriores.
+- Sin embargo, a finales de 2008 se iba a publicar la versión 3.0. Esta nueva versión era
+un cambio radical con respecto las predecesoras y esto hacía que no fuera compatible
+con las versiones anteriores de Python. Por este motivo, se publicó la versión 2.6
+como soporte para los desarrollos de la versión 2. En la versión 2.6 se incluyeron
+nuevas funcionalidades de la versión 3, pero adaptadas a la versión 2. Desde ese
+momento Python contaba con 2 versiones y las novedades las tenían que duplicar en
+ambas. Por ejemplo, en 2010 publicaron la versión 3.1 y la 2.7 que incluía las nuevas
+- funcionalidades, pero adaptadas a la versión 2.
+Sin embargo, desde el equipo de Python siempre han explicado que las versiones 2.6
+o 2.7 eran un parche y que no iban a ser versiones funcionales en un futuro. Este
+hecho se hizo oficial en enero de 2020 cuando se decidió que la versión 2.7 quedaba
+descontinuada y que a partir de entonces solo se publicarían nuevas funcionalidades
+para la versión 3.
