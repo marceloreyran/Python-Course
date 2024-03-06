@@ -9,7 +9,7 @@ dentro de Python y cómo instalar nuevos módulos en estas distribuciones para
 aumentar el número de funcionalidades. Por último, describiremos diferentes
 herramientas disponibles para desarrollar en este lenguaje y nos centraremos en
 - Jupyter Notebook, que será el entorno de desarrollo que usaremos a lo largo del
-curso. Los objetivos que trataremos son: **
+curso. Los objetivos que trataremos son: 
 1. Contextualizar Python desde su historia y sus características.
 2.  Comprender el problema de las versiones que ha existido hasta este año.
 3. Conocer los pasos para instalar Python en nuestro equipo.
@@ -40,6 +40,33 @@ en una terminal con Python.
 se encuentra descrita en el Python Enhancement Proposal, abreviado como PEP,
 versión 8. Esta guía contiene las reglas de estilo que se aplicaron a la hora de
 desarrollar Python para que se sigan en el desarrollo de nuevas aplicaciones.
+
+
+## Ventajas de Python
+
+- Python tiene varias propiedades que lo han convertido en un lenguaje muy potente
+y fácil de aprender. Estas propiedades son las siguientes:
+- Tipado dinámico: Python no necesita que definamos el tipo de las variables
+cuando las inicializamos como pasa, por ejemplo, en Java o C. Cuando inicializamos
+una variable Python le asigna el tipo del valor que le estamos asignando. Incluso,
+durante la ejecución, una misma variable podría contener valores con distintos
+tipos. Esta propiedad hace que sea más sencillo aprender a usarlo, aunque hace
+que sea más difícil detectar errores asociados con los tipos de datos.
+- Lenguaje multiparadigma: Python permite aplicar diferentes paradigmas de
+programación como son la programación orientada a objetos, como Java o C++,
+programación imperativa, como C, o programación funcional, como Haskell.
+- Interpretado/scripts: otra ventaja es que podemos ejecutar Python de forma
+interpretada o usando scripts. Es decir, puedo abrir una consola de Python y
+escribir y ejecutar las instrucciones una a una o, por otro lado, puedo crear un
+fichero que almacene todo el programa.
+- Extensible: por último, Python cuenta con una gran cantidad de módulos y
+librerías que podemos instalar para incluir nuevas funcionalidades. Sin embargo,
+como Python esta implementado usando C++, podemos crear nuevos módulos en
+C++ e incluirlo en Python haciendo que el lenguaje sea extensible a nuevos
+módulos.
+## Versiones en Python
+- Uno de los problemas que tenía una persona que se inicializaba en Python era saber
+qué versión tenía que instalar, ya que hasta finales de diciembre de 2019 existían dos versiones activas.
 
 
 
