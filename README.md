@@ -85,3 +85,24 @@ o 2.7 eran un parche y que no iban a ser versiones funcionales en un futuro. Est
 hecho se hizo oficial en enero de 2020 cuando se decidió que la versión 2.7 quedaba
 descontinuada y que a partir de entonces solo se publicarían nuevas funcionalidades
 para la versión 3.
+
+### 1.3. Instalación
+
+- Distribución básica Python
+La primera opción que podemos instalar es una distribución básica de Python. Esta
+distribución solo incluye los módulos principales que hay en Python. A continuación,
+veremos los pasos para instalarlo.
+Descargar Python
+- La primera opción de instalación es únicamente los módulos principales del lenguaje.
+En esta opción tendremos que instalar nuevos módulos si queremos ampliar las
+funcionalidades de Python. Para poder descargarnos esta versión, deberemos
+acceder a la sección de descargas de la página principal de Python.
+
+- En esta página tenemos una opción para instalar la última versión estable de Python.
+En nuestro caso, es la versión 3.8. Para descargarlo, hacemos clic en el botón
+download Python 3.X y automáticamente empezará la descarga del paquete de
+instalación.
+- Instalación Python
+Una vez que tenemos el paquete de instalación descargado, podemos iniciar el proceso
+de instalación. Para ello, ejecutaremos el fichero python-3.X.exe que hemos ejecutado y,
+a continuación, se nos abrirá el asistente de configuración.
