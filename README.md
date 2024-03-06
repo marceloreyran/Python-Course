@@ -1,4 +1,4 @@
-## 1.1. Introducción y objetivos
+### 1.1. Introducción y objetivos
 - Python se ha convertido en uno de los lenguajes de programación más populares
 debido a su potencia y su facilidad para aprenderlo. En este tema pondremos en
 contexto qué es Python y qué características han hecho que este lenguaje sea uno de
@@ -16,7 +16,7 @@ curso. Los objetivos que trataremos son:
 4. Conocer las distintas herramientas existentes para programar en Python.
 5. Comprender el entorno de desarrollo de Jupyter Notebook. 
 
-## 1.2. ¿Qué es Python?
+### 1.2. ¿Qué es Python?
 - Python es un lenguaje de propósito general que en los últimos años se ha ido
 haciendo cada vez más popular en áreas como data science o la inteligencia artificial.
 Contexto de Python
@@ -42,7 +42,7 @@ versión 8. Esta guía contiene las reglas de estilo que se aplicaron a la hora 
 desarrollar Python para que se sigan en el desarrollo de nuevas aplicaciones.
 
 
-## Ventajas de Python
+### Ventajas de Python
 
 - Python tiene varias propiedades que lo han convertido en un lenguaje muy potente
 y fácil de aprender. Estas propiedades son las siguientes:
@@ -64,7 +64,7 @@ librerías que podemos instalar para incluir nuevas funcionalidades. Sin embargo
 como Python esta implementado usando C++, podemos crear nuevos módulos en
 C++ e incluirlo en Python haciendo que el lenguaje sea extensible a nuevos
 módulos.
-## Versiones en Python
+### Versiones en Python
 - Uno de los problemas que tenía una persona que se inicializaba en Python era saber
 qué versión tenía que instalar, ya que hasta finales de diciembre de 2019 existían dos versiones activas.
 
