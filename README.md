@@ -106,3 +106,49 @@ instalación.
 Una vez que tenemos el paquete de instalación descargado, podemos iniciar el proceso
 de instalación. Para ello, ejecutaremos el fichero python-3.X.exe que hemos ejecutado y,
 a continuación, se nos abrirá el asistente de configuración.
+
+- La primera ventana del asistente nos muestra dos formas para instalar Python. La
+primera de ellas, install now, nos permite instalar Python con la configuración por
+defecto. En cambio, customize installation permite cambiar algunos parámetros
+como, por ejemplo, dónde vamos a instalar Python. Por último, tenemos dos
+opciones que tenemos que comprobar que están marcadas para, en primer lugar,
+instalar Python a todos los usuarios de un equipo y, en segundo lugar, almacenar
+Python en el PATH del sistema operativo. Para nuestra instalación elegiremos la
+opción install now.
+
+- A continuación, aparecerá una ventana como la Figura 6, en la que se mostrará el
+progreso de la instalación de Python. Pasados unos minutos, el asistente nos
+informará de que la instalación ha terminado con éxito y podremos cerrar el asistente
+con el botón close.
+
+- También podemos comprobar que la instalación se realizó correctamente. Una forma
+de comprobarlo es preguntando al sistema por la versión que tenemos instalada de
+Python. Para ello abrimos el símbolo del sistema y ejecutamos la instrucción python
+--version. Esto nos debería mostrar la versión de Python que hemos instalado.
+
+- Instalación de nuevos módulos
+La versión que hemos instalado solo contiene los módulos básicos de Python. Por este
+motivo suele ser necesario instalar los nuevos módulos que queremos incluir en nuestros
+programas. Para instalar nuevos módulos, Python incluye el paquete de instalación para
+Python (pip).
+Si queremos instalar un nuevo módulo en Python, tenemos que ejecutar la instrucción
+pip install nombre_modulo. Por ejemplo, si queremos instalar el módulo numpy,
+abriremos el símbolo del sistema y ejecutaremos la instrucción de instalación.
+
+- De esta forma podremos instalar todos los módulos que se puedan necesitar en el
+futuro. Sin embargo, hay otra distribución que tiene algunos módulos preinstalados,
+sobre todo aquellos asociados a la data science. En el siguiente capítulo veremos
+cómo instalar esta distribución.
+
+ ### Distribución Anaconda
+
+- Otra distribución con la que podemos instalar Python es Anaconda. Esta distribución,
+aparte de instalar la versión básica de Python, incluye otros módulos importantes
+dentro del análisis de datos, como son numpy o pandas. Esta es la distribución que
+usaremos en el curso.
+- Descargar Anaconda
+Otra distribución de Python es la que nos proporciona Anaconda. Esta distribución nos
+instala los módulos principales de Python y otros módulos importantes en el análisis de
+datos como son numpy y pandas. Esta es la distribución que usaremos durante el curso.
+Para descargarnos Anaconda, nos dirigimos a la sección de descargas de su página y
+seleccionamos la versión 3.7.
