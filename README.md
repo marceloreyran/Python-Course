@@ -203,3 +203,42 @@ ser necesario instalar nuevos módulos en nuestra distribución. Para instalar e
 módulos, podemos utilizar la opción de instalación que tenemos desde el símbolo del
 sistema: conda install nombre_modulo. Por ejemplo, vamos a instalar el módulo scikit-
 learn en nuestro sistema.
+
+### 1.4. Herramientas
+- Entornos de desarrollo
+Como ya hemos explicado, Python es un lenguaje que podemos ejecutarlo de dos
+formas principalmente: usando el intérprete o usando scripts. En este apartado
+veremos los diferentes entornos de desarrollo que encontramos para programar en
+Python. Además, explicaremos en detalle el funcionamiento de Jupyter Notebook, ya
+que será la herramienta con la que trabajemos en este curso.
+Modo interactivo
+- Python es un lenguaje interpretado, es decir, Python es capaz de ir ejecutando las
+instrucciones según las vamos introduciendo. Por este motivo, la instalación de
+Python incluye el intérprete en el que podemos ejecutar instrucciones. Para iniciar
+este intérprete, solo tenemos que ejecutar la instrucción python en nuestra consola
+de comandos.
+
+- Usando este modo podemos conocer algunos elementos del lenguaje Python como
+sus clases o funciones. Además, podemos consultar la documentación del lenguaje
+desde el propio intérprete. Os animamos a que uséis el intérprete de Python para
+probar los conceptos básicos que vemos durante el curso. Para salir del intérprete
+solo debemos ejecutar el comando exit().
+- IPython para mejorar el intérprete de Python, se puede instalar el paquete IPython (las
+instrucciones se encuentran en https://ipython.org/install.html). IPython añade más
+funcionalidades al intérprete de Python, como son el resaltado de errores,
+completado automático de variables o módulos a través del tabulador, etc. Una vez
+instalado, para iniciar este intérprete solo debemos ejecutar la instrucción ipython.
+
+### Editores de texto plano
+- Las dos opciones anteriores nos permiten ejecutar pequeñas instrucciones en Python
+y poder consultar la documentación de objetos y módulos. Sin embargo, para crear
+programas más complejos es necesario escribir scripts que contienen más
+instrucciones o diferentes bloques de código. Una de las primeras opciones que se
+pueden utilizar para implementar estos scripts es la utilización de editores de texto plano. Existen muchos tipos de editores de texto para todos los sistemas operativos,
+- algunos ejemplos pueden ser:
+1. Nano o vim (sistemas UNIX).
+2. Bloc de notas de Windows.
+3. Sublime Text 3.
+4. Atom.
+5. Notepad++ (solo Windows).
+6. Visual Code.
