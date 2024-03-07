@@ -152,3 +152,54 @@ instala los módulos principales de Python y otros módulos importantes en el an
 datos como son numpy y pandas. Esta es la distribución que usaremos durante el curso.
 Para descargarnos Anaconda, nos dirigimos a la sección de descargas de su página y
 seleccionamos la versión 3.7.
+
+- Una vez descargada la versión de Anaconda, procederemos a su instalación en
+nuestro equipo.
+- Instalación Anaconda
+Para iniciar la instalación de Anaconda en nuestro equipo, ejecutamos el fichero
+Anaconda3-XXX.exe. Hecho esto, se nos abrirá el asistente de instalación que nos
+guiará en los pasos de configuración de Anaconda.
+
+- Seleccionamos el botón Next > y nos mostrará el acuerdo de licencia del software.
+Para continuar con la instalación, es necesario aceptar los términos de la licencia con
+el botón I Agree.
+
+- En el siguiente paso, el asistente nos preguntará el tipo de instalación que queremos
+hacer. La primera opción es hacer una instalación únicamente para el usuario que se
+está ejecutando en ese momento. La segunda opción permite instalar Anaconda a
+todos los usuarios que comparten un mismo equipo, aunque para ello necesita
+permisos de administración. Seleccionamos una de las dos opciones y continuamos
+con el botón Next >.
+
+- Una vez decidido qué usuarios pueden acceder a Anaconda, toca elegir en qué
+carpeta deseamos que se instale el software. En nuestro caso dejaremos la carpeta
+que viene por defecto. En este paso hay que prestar atención al espacio libre que
+tenemos en el sistema, ya que Anaconda ocupa 2,9 GB. Si hay espacio suficiente y
+hemos elegido la carpeta, continuamos la instalación pulsando Next >.
+
+- El siguiente paso es muy importante. Tenemos que asegurarnos de que las dos
+opciones avanzadas que se nos muestran están seleccionadas. La primera de ellas
+incluye Anaconda en el PATH del sistema. Esto nos permitirá acceder a Anaconda
+desde el símbolo del sistema. La segunda opción hace que la versión de Python
+instalada en Anaconda sea la versión por defecto del sistema, en nuestro caso la
+versión 3.7. Una vez seleccionadas ambas opciones, continuamos la instalación con
+el botón Install.
+
+- En ese momento, el asistente nos mostrará una barra de progreso de la instalación.
+Pasado un tiempo, el sistema nos indicará que la instalación se ha completado. En
+ese momento pulsamos el botón Next > para finalizar la instalación. En las ventanas
+siguientes nos mostrarán algunos mensajes de editores y opciones que podemos
+utilizar con Anaconda. Seguiremos dando al botón Next > hasta llegar al último paso
+donde pulsaremos el botón Finish.
+
+- Para comprobar que la instalación se ha realizado correctamente, nos dirigiremos al
+botón de inicio de Windows y entre los programas tendremos una carpeta con el
+nombre «Anaconda3». 
+
+### Instalación de nuevos módulos
+- Aunque la distribución de Anaconda incluye nuevas funcionalidades a los módulos
+básicos de Python, no están incluidos todos los posibles. Por este motivo también puede
+ser necesario instalar nuevos módulos en nuestra distribución. Para instalar estos nuevos
+módulos, podemos utilizar la opción de instalación que tenemos desde el símbolo del
+sistema: conda install nombre_modulo. Por ejemplo, vamos a instalar el módulo scikit-
+learn en nuestro sistema.
