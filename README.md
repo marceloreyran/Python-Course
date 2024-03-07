@@ -242,3 +242,92 @@ pueden utilizar para implementar estos scripts es la utilización de editores de
 4. Atom.
 5. Notepad++ (solo Windows).
 6. Visual Code.
+
+### Entornos de desarrollo avanzados
+- Por último, existen diferentes entornos de desarrollo avanzados orientados a Python.
+Estos entornos están orientados a grandes proyectos en Python y se incluyen muchas
+más funcionalidades como son la gestión de repositorios. Algunos de estos entornos
+de desarrollo pueden ejecutar en un mismo proyecto scripts y notebooks, como es el
+caso de PyCharm. Los entornos de desarrollo más utilizados son:
+1. PyCharm.
+2. Eclipse PyDev.
+3. Spyder.
+
+### Jupyter Notebook
+- Jupyter Notebook es una aplicación web incluida en la distribución Anaconda. Esta
+aplicación web es una extensión de IPython, donde se añaden funcionalidades y se
+mejora la interfaz gráfica. La principal característica que tiene Jupyter Notebook es la
+creación de celdas con objetivos específicos. Estos objetivos específicos de cada celda
+pueden ser: ejecutar código de Python, incluir texto en markdown o visualizar
+gráficos. Es la aplicación más utilizada en el campo de la ciencia de datos.
+Para abrir Jupyter Notebook en nuestro equipo, ejecutaremos la aplicación Anaconda
+Navigator. Esta aplicación nos mostrará distintas herramientas que podemos
+ejecutar. Desde ahí pulsamos en el botón Launch de Jupyter Notebook.
+
+- Esto hará que nuestro navegador web predeterminado abra Jupyter Notebook como
+una aplicación web. La primera ventana que veremos será el navegador de archivos
+de Jupyter que explicaremos a continuación.
+Navegador de archivos
+- La primera ventana que nos muestra Jupyter Notebook es el navegador de archivos.
+A través de esta ventana podemos movernos en nuestro sistema de ficheros, crear
+nuevas carpetas o archivos y renombrar ficheros.
+
+- En primer lugar, para navegar entre las carpetas, solo tendremos que hacer clic en el
+nombre de la carpeta a la que queremos acceder. Si lo que queremos es volver a la
+carpeta superior, solo debemos hacer clic en la carpeta que tiene como nombre dos
+puntos (..).
+- Para crear un nuevo fichero, pulsamos sobre el botón New. Una vez hecho esto, se
+nos desplegarán varias opciones para crear un fichero: notebook (con la versión
+correspondiente de Python) u otro tipo de fichero como, por ejemplo, un fichero de
+texto o una carpeta.
+
+- Esto hará que se cree un fichero del tipo seleccionado en la carpeta en la que nos
+encontremos en ese momento. Vamos a crear un fichero de tipo notebook y, a
+continuación, explicaremos la ventana que nos muestra Jupyter dentro de un
+notebook.
+- Vista del notebook
+Cuando creamos un notebook o abrimos uno que ya existe veremos una pantalla
+similar a la que se muestra en la Figura 24. En la parte inferior veremos todas las
+celdas de nuestro notebook. Cada una de estas celdas pueden ser de los siguientes
+tipos:
+1. Código en Python.
+2. Texto con markdown.
+3. Formato raw en la que se muestra el texto con el formato de consola.
+4. Formato heading que crea una celda con formato título.
+   
+- Además, existe otro tipo de celda que se da cuando una celda de código en Python
+devuelve un resultado como, por ejemplo, si utilizamos la instrucción print. Estas
+celdas se crearán de forma automática.
+
+- Justo encima de las celdas, tenemos un conjunto de botones que nos permiten
+interactuar con las celdas. A continuación, explicaremos cada uno de estos botones
+siguiendo el orden de izquierda a la derecha:
+Guardar: almacena en el fichero todas las celdas y guarda el estado de ejecución
+en el que se quedó el notebook.
+1. Nueva celda: crea una nueva celda inmediatamente después de la celda que
+tenemos seleccionada.
+2. Cortar: permite cortar una celda para pegarla en otro punto del notebook.
+3. Copiar: permite copiar una celda para poder pegarla en otro punto del notebook.
+4. Pegar: pegamos la celda que hemos copiado o cortado previamente
+- Inmediatamente después de la celda que tenemos seleccionada.
+1. Bajar una celda: desplaza la celda seleccionada una posición hacia abajo.
+2. Subir una celda: desplaza la celda seleccionada una posición hacia arriba.
+3. Ejecutar celda: ejecuta el contenido que hay en la celda seleccionada. Si esa celda
+es de tipo código, ejecutará las instrucciones y devolverá la salida en una celda de
+salida. Por otro lado, si la celda es de tipo texto, le asignará un formato HTML.
+4. Stop: para la ejecución del kernel de Python. Para poder seguir ejecutando nuevas
+celdas, es necesario reiniciar el kernel de Python.
+5. Reiniciar kernel: reinicia la ejecución del kernel, eliminando de la memoria toda la
+información del notebook que tuviese almacenada.
+6. Reiniciar el kernel y ejecutar todas las celdas: reinicia el kernel de Python como
+el botón anterior y, después, ejecuta todas las celdas del notebook.
+7. Selección del tipo de celda: permite seleccionar el tipo de celda que tenemos
+seleccionado. Los tipos son los que hemos descrito anteriormente.
+
+### En la parte superior se encuentra el menú que incluye muchas más funciones. A
+continuación, explicamos algunas de las funciones más útiles y dónde se encuentran:
+- Crear un nuevo notebook [File >> New Notebook].
+- Descargar notebook en otro formato (HTML, PDF…) [File >> Downloads].
+- Cerrar el notebook y apagar el kernel [File >> Close and Halt].
+- Insertar celdas encima o debajo de la celda seleccionada [Insert].
+- Referencia de Python y librerías utilizadas en Jupyter [Help].
