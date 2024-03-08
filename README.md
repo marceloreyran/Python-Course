@@ -331,3 +331,30 @@ continuación, explicamos algunas de las funciones más útiles y dónde se encu
 - Cerrar el notebook y apagar el kernel [File >> Close and Halt].
 - Insertar celdas encima o debajo de la celda seleccionada [Insert].
 - Referencia de Python y librerías utilizadas en Jupyter [Help].
+
+    En cuanto a la interfaz gráfica, podemos ver que se ha creado una nueva celda
+de tipo código. En ella, podemos escribir el código que queramos y ejecutarlo.
+
+### ¿Cómo puedo empezar a programar en Python?
+
+- Para empezar a programar en Python, lo primero que debemos hacer es instalar la
+librería Jupyter. Para ello, podemos seguir los siguientes pasos:
+1. Descargar Anaconda.
+2. Instalar Anaconda.
+3. Abrir Anaconda Navigator.
+4. Instalar Jupyter Notebook.
+
+- Una vez instalado Jupyter, podemos abrir el programa desde la terminal con el
+siguiente comando:
+
+    jupyter notebook
+
+- Una vez abierto, podemos crear un nuevo notebook y empezar a programar. 
+
+### ¿Cómo puedo ejecutar el código de Python?
+
+- Para ejecutar el código de Python, podemos seguir los siguientes pasos:
+1. Seleccionar la celda de código que queremos ejecutar.
+2. Pulsar el botón de ejecución de la celda.
+
+ 
